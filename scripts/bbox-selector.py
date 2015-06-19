@@ -4,7 +4,7 @@ from pylab import *
  
 src_path = "../images/dir1/"
 out_path = "../images/cropped/"
-image_type = ".jpg"
+image_type = (".JPG", ".jpg", ".png", ".JPEG", ".jpeg")
  
 image_paths = []  
 for root, dirs, files in os.walk(src_path):
